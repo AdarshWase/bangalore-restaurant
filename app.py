@@ -4,7 +4,7 @@ from markdownlit import mdlit
 from ranking_restaurants import get_highest_rated_restaurants
 
 # starting streamlit
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", page_title = 'Restaurants')
 st.markdown("<h1 style='text-align: center;'>Bangalore Restaurant Analysis</h1>", unsafe_allow_html=True)
 
 # metrics Section
